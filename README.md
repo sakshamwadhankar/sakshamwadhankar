@@ -352,12 +352,12 @@ CyberOS 4.2.0-kali saksham 2024 x86_64 Hack/Build/Secure/Repeat
 <tr>
 <td width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sakshamwadhankar&show_icons=true&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&icon_color=00E5FF&border_color=00FF41&hide_border=false" width="100%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sakshamwadhankar&show_icons=true&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&icon_color=00E5FF&border_color=00FF41&hide_border=false" width="100%" alt="GitHub Stats"/>
 
 </td>
 <td width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sakshamwadhankar&layout=compact&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&border_color=00FF41&hide_border=false&langs_count=8" width="100%" alt="Top Languages"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sakshamwadhankar&layout=compact&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&border_color=00FF41&hide_border=false&langs_count=8" width="100%" alt="Top Languages"/>
 
 </td>
 </tr>
@@ -370,7 +370,8 @@ CyberOS 4.2.0-kali saksham 2024 x86_64 Hack/Build/Secure/Repeat
 <br/><br/>
 
 <!-- Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=sakshamwadhankar&theme=darkhub&no-bg=true&no-frame=false&column=7&margin-w=8&margin-h=8&title_color=00FF41&border_color=00FF41" width="90%" alt="Trophies"/>
+<!-- The github-profile-trophy service is currently down (402 Payment Required). -->
+<!-- <img src="https://github-profile-trophy.vercel.app/?username=sakshamwadhankar&theme=darkhub&no-bg=true&no-frame=false&column=7&margin-w=8&margin-h=8&title_color=00FF41&border_color=00FF41" width="90%" alt="Trophies"/> -->
 
 <br/><br/>
 
