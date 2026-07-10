@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="30" viewBox="0 0 900 30">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00FF41" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#00FF41" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .div-line {
+        stroke: url(#glow);
+        stroke-width: 1;
+        stroke-dasharray: 8 4 2 4;
+        animation: divPulse 4s ease-in-out infinite;
+      }
+      @keyframes divPulse {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .div-dot {
+        fill: #00E5FF;
+        animation: dotGlow 3s ease-in-out infinite;
+      }
+      @keyframes dotGlow {
+        0%, 100% { opacity: 0.3; r: 2; }
+        50% { opacity: 1; r: 3; }
+      }
+      .bracket {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        fill: #00FF41;
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <rect width="900" height="30" fill="#0D1117"/>
+  <text class="bracket" x="40" y="18">◄</text>
+  <line class="div-line" x1="60" y1="15" x2="840" y2="15"/>
+  <circle class="div-dot" cx="450" cy="15" r="3"/>
+  <text class="bracket" x="850" y="18">►</text>
+</svg>

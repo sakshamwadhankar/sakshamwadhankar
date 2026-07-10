@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="40" viewBox="0 0 900 40">
+  <defs>
+    <linearGradient id="endGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00FF41" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#00FF41" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .end-line {
+        stroke: url(#endGlow);
+        stroke-width: 1;
+        animation: endPulse 5s ease-in-out infinite;
+      }
+      @keyframes endPulse {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      .end-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 8px;
+        fill: #00FF41;
+        opacity: 0.3;
+        text-anchor: middle;
+        letter-spacing: 4px;
+      }
+      .end-diamond {
+        fill: #00E5FF;
+        animation: diamondPulse 3s ease-in-out infinite;
+      }
+      @keyframes diamondPulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+    </style>
+  </defs>
+  <rect width="900" height="40" fill="#0D1117"/>
+  <line class="end-line" x1="50" y1="15" x2="410" y2="15"/>
+  <polygon class="end-diamond" points="450,10 455,15 450,20 445,15"/>
+  <line class="end-line" x1="490" y1="15" x2="850" y2="15"/>
+  <text class="end-text" x="450" y="35">EOF</text>
+</svg>

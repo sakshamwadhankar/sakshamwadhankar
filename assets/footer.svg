@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .term-bg { fill: #0D1117; rx: 8; }
+      .term-bar { fill: #161B22; }
+      .dot-red { fill: #FF5F56; }
+      .dot-yellow { fill: #FFBD2E; }
+      .dot-green { fill: #27C93F; }
+      .term-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #8B949E;
+      }
+      .code-text {
+        font-family: 'JetBrains Mono', 'Fira Code', monospace;
+        font-size: 15px;
+        fill: #E6EDF3;
+      }
+      .keyword { fill: #FF7B72; }
+      .fn-name { fill: #00FF41; }
+      .bracket { fill: #E6EDF3; }
+      .comment { fill: #8B949E; font-style: italic; }
+      .cursor {
+        fill: #00FF41;
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .glow-border {
+        stroke: #00FF41;
+        stroke-width: 1;
+        fill: none;
+        rx: 8;
+        opacity: 0.3;
+        animation: borderGlow 3s ease-in-out infinite;
+      }
+      @keyframes borderGlow {
+        0%, 100% { opacity: 0.2; stroke: #00FF41; }
+        50% { opacity: 0.6; stroke: #00E5FF; }
+      }
+      .line-num {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #484F58;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer glow border -->
+  <rect class="glow-border" x="1" y="1" width="558" height="278" rx="8"/>
+
+  <!-- Terminal background -->
+  <rect class="term-bg" x="3" y="3" width="554" height="274" rx="7"/>
+
+  <!-- Title bar -->
+  <rect class="term-bar" x="3" y="3" width="554" height="32" rx="7"/>
+  <rect class="term-bar" x="3" y="28" width="554" height="10"/>
+
+  <!-- Window dots -->
+  <circle class="dot-red" cx="22" cy="19" r="6"/>
+  <circle class="dot-yellow" cx="42" cy="19" r="6"/>
+  <circle class="dot-green" cx="62" cy="19" r="6"/>
+
+  <!-- Title -->
+  <text class="term-title" x="280" y="23" text-anchor="middle">saksham@cyberlab:~/life</text>
+
+  <!-- Line numbers -->
+  <text class="line-num" x="20" y="70">1</text>
+  <text class="line-num" x="20" y="95">2</text>
+  <text class="line-num" x="20" y="120">3</text>
+  <text class="line-num" x="20" y="145">4</text>
+  <text class="line-num" x="20" y="170">5</text>
+  <text class="line-num" x="20" y="195">6</text>
+  <text class="line-num" x="20" y="220">7</text>
+  <text class="line-num" x="20" y="245">8</text>
+
+  <!-- Code -->
+  <text class="code-text" x="50" y="70">
+    <tspan class="comment">// life.js</tspan>
+  </text>
+  <text class="code-text" x="50" y="95">
+    <tspan class="keyword">while</tspan><tspan class="bracket">(</tspan><tspan class="fn-name">alive</tspan><tspan class="bracket">) {</tspan>
+  </text>
+  <text class="code-text" x="50" y="120">
+    <tspan>    </tspan><tspan class="fn-name">Learn</tspan><tspan class="bracket">();</tspan>
+  </text>
+  <text class="code-text" x="50" y="145">
+    <tspan>    </tspan><tspan class="fn-name">Build</tspan><tspan class="bracket">();</tspan>
+  </text>
+  <text class="code-text" x="50" y="170">
+    <tspan>    </tspan><tspan class="fn-name">Secure</tspan><tspan class="bracket">();</tspan>
+  </text>
+  <text class="code-text" x="50" y="195">
+    <tspan>    </tspan><tspan class="fn-name">Repeat</tspan><tspan class="bracket">();</tspan>
+  </text>
+  <text class="code-text" x="50" y="220">
+    <tspan class="bracket">}</tspan>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="65" y="232" width="9" height="16"/>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      .hdr-bg { fill: #0D1117; }
+      .hdr-border {
+        stroke: #00FF41;
+        stroke-width: 1;
+        fill: none;
+        opacity: 0.3;
+        stroke-dasharray: 4 2;
+      }
+      .hdr-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #00FF41;
+      }
+      .hdr-val {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #E6EDF3;
+      }
+      .hdr-label {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 12px;
+        fill: #00E5FF;
+      }
+      .hdr-prompt {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #8B949E;
+      }
+      .hdr-cursor {
+        fill: #00FF41;
+        animation: hBlink 1s step-end infinite;
+      }
+      @keyframes hBlink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .hdr-title-bar { fill: #161B22; }
+      .dot-r { fill: #FF5F56; }
+      .dot-y { fill: #FFBD2E; }
+      .dot-g { fill: #27C93F; }
+      .hdr-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        fill: #8B949E;
+      }
+    </style>
+  </defs>
+
+  <rect class="hdr-bg" width="900" height="200" rx="6"/>
+  <rect class="hdr-border" x="1" y="1" width="898" height="198" rx="6"/>
+
+  <!-- Title bar -->
+  <rect class="hdr-title-bar" x="2" y="2" width="896" height="26" rx="6"/>
+  <rect class="hdr-title-bar" x="2" y="22" width="896" height="8"/>
+  <circle class="dot-r" cx="18" cy="15" r="5"/>
+  <circle class="dot-y" cx="34" cy="15" r="5"/>
+  <circle class="dot-g" cx="50" cy="15" r="5"/>
+  <text class="hdr-title" x="450" y="18" text-anchor="middle">neofetch — saksham@cyberlab</text>
+
+  <!-- Neofetch output -->
+  <text class="hdr-prompt" x="20" y="52">saksham@cyberlab:~$ neofetch</text>
+
+  <text x="20" y="78"><tspan class="hdr-label">OS        </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">CyberOS v4.2 (Kali-based)</tspan></text>
+  <text x="20" y="98"><tspan class="hdr-label">User      </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">Saksham Wadhankar</tspan></text>
+  <text x="20" y="118"><tspan class="hdr-label">Role      </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">CyberSec Student · AI Dev · Full Stack</tspan></text>
+  <text x="20" y="138"><tspan class="hdr-label">Shell     </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">Python / JS / C++ / Bash</tspan></text>
+  <text x="20" y="158"><tspan class="hdr-label">Institute </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">Symbiosis Institute of Technology</tspan></text>
+  <text x="20" y="178"><tspan class="hdr-label">Mission   </tspan><tspan class="hdr-text">→ </tspan><tspan class="hdr-val">Hack • Build • Secure • Repeat</tspan></text>
+
+  <!-- Color blocks -->
+  <rect x="620" y="70" width="30" height="14" fill="#0D1117" stroke="#30363D" stroke-width="0.5" rx="2"/>
+  <rect x="655" y="70" width="30" height="14" fill="#00FF41" rx="2"/>
+  <rect x="690" y="70" width="30" height="14" fill="#00E5FF" rx="2"/>
+  <rect x="725" y="70" width="30" height="14" fill="#E6EDF3" rx="2"/>
+  <rect x="760" y="70" width="30" height="14" fill="#FF7B72" rx="2"/>
+  <rect x="795" y="70" width="30" height="14" fill="#D2A8FF" rx="2"/>
+  <rect x="830" y="70" width="30" height="14" fill="#FFBD2E" rx="2"/>
+
+  <rect x="620" y="90" width="30" height="14" fill="#161B22" stroke="#30363D" stroke-width="0.5" rx="2"/>
+  <rect x="655" y="90" width="30" height="14" fill="#238636" rx="2"/>
+  <rect x="690" y="90" width="30" height="14" fill="#1F6FEB" rx="2"/>
+  <rect x="725" y="90" width="30" height="14" fill="#8B949E" rx="2"/>
+  <rect x="760" y="90" width="30" height="14" fill="#F85149" rx="2"/>
+  <rect x="795" y="90" width="30" height="14" fill="#BC8CFF" rx="2"/>
+  <rect x="830" y="90" width="30" height="14" fill="#FFA657" rx="2"/>
+
+  <!-- Stats on right side -->
+  <text x="620" y="135" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B949E">▪ Hackathons:  <tspan fill="#00FF41">10+</tspan></text>
+  <text x="620" y="152" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B949E">▪ Wins:       <tspan fill="#00FF41">2</tspan></text>
+  <text x="620" y="169" font-family="JetBrains Mono, monospace" font-size="10" fill="#8B949E">▪ Status:     <tspan fill="#00E5FF">Active</tspan></text>
+
+  <!-- Blinking cursor at end -->
+  <rect class="hdr-cursor" x="310" y="52" width="7" height="12"/>
+</svg>
