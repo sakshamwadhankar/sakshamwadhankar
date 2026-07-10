@@ -17,36 +17,36 @@
                                 .......,......,,,,,,,:;;;iii
                               ....     ...,,,,:,. ..,,,...,,;iiit1
                             ,.     .   .... .,. .  .,,,;,,.,:;::;;;ii
-                           .    ..          ..,...::.....,,. .......:i;
-                         . .            .,,..   ,,,. ...,,,:::,;i:::.:ii
-                        .                      .    ..,,..... ....,::,,;t1:
-                       ..         ,                   .,,,. .,:;;:,,,,::::iI
-                       .       ...                              .  ..  .:,;it
-                               ..           ..     .. .   ...   ,:.... .:i,:1t
-                             ...                . .:,.;.  ,,,,:::i:,:,,..:.:ii 1
-                             ..             .  ,.   . ...  .. .,.....,,,,,,,:iit
-                             .                          ..          ........,,,1
-                             .                  . .    .;,. ..        ..      ,;
-                            .             .      ,,:,,::;ti,...          ....::
-                                     ....,... ,1|!|lIIl!!+!|lt1;,..       ..,:.
-                            .    .    .,,,:,,;l+~~+++++~l1i;;;it|!lI1i;;. .,,,
-                            .. ,..,, ..,:;;;;t!~=~~=~!ltIlllti,  .:1I||Ii:.:,
-                        .:;;,.,,:,::;i!I;:;;iI+~==<<=+I1;;;11;...,,;tI;.,,
-                      .::. .i1:i;1;i;:t|I:,:il+~=<>*#>~+|1I=>I..:;t!|;,;t
-                      ,,.   .I1i:i,;:::lIi,:il!+~=<*##*><!t1i;itl|+>*~;,
-                      ;,.    :1.,..,,,i~+t:.:1l|!+=<>#MM#*>=++~<<<>>##*>
-                      ;i,    ::  ....:,t|t:..:1Il|!+=<**###*****><<<<**M#
-                      .::.  .;       .;II1,  .:itl|!+~=<*#MM#*>~!~<<<>#*W*
-                        .:;;,        ,|!t1:  .,:1tl|!+~=<>***>~|I+~!ll|~=~
-                                     ,:,;:....,,:i1tl!+==<>>><>=li1i:;;i
-                                   .,:::,. ..,,:;;;itl!~~=<<=!lI1:,...,
-                                 .,:i1i,   ..,::i;;iitI!+~~|;..,::,;t;,.
-                                .,:i1t1:    .,,:;;;;;itl!+|i.:i1tllt1,
-                                .:ii1tt;.     ...,,:i1ttIIttIlIt111tIt
-                                ,;ii1tt1:.       .,;11IItttIllI1:........
-                                ,;iiitIt;,.         .,,:;1I|!~~~!1i:     ...
-                                :i1i;1II1i:,..           ,:;i111i;;::.      .,
-                               .:iii;iIlltii;;:,.           ........,:,     ..;
+       .    ..          ..,...::.....,,. .......:i;
+     . .            .,,..   ,,,. ...,,,:::,;i:::.:ii
+    .                      .    ..,,..... ....,::,,;t1:
+   ..         ,                   .,,,. .,:;;:,,,,::::iI
+   .       ...                              .  ..  .:,;it
+           ..           ..     .. .   ...   ,:.... .:i,:1t
+         ...                . .:,.;.  ,,,,:::i:,:,,..:.:ii 1
+         ..             .  ,.   . ...  .. .,.....,,,,,,,:iit
+         .                          ..          ........,,,1
+         .                  . .    .;,. ..        ..      ,;
+        .             .      ,,:,,::;ti,...          ....::
+                 ....,... ,1|!|lIIl!!+!|lt1;,..       ..,:.
+        .    .    .,,,:,,;l+~~+++++~l1i;;;it|!lI1i;;. .,,,
+        .. ,..,, ..,:;;;;t!~=~~=~!ltIlllti,  .:1I||Ii:.:,
+    .:;;,.,,:,::;i!I;:;;iI+~==<<=+I1;;;11;...,,;tI;.,,
+  .::. .i1:i;1;i;:t|I:,:il+~=<>*#>~+|1I=>I..:;t!|;,;t
+  ,,.   .I1i:i,;:::lIi,:il!+~=<*##*><!t1i;itl|+>*~;,
+  ;,.    :1.,..,,,i~+t:.:1l|!+=<>#MM#*>=++~<<<>>##*>
+  ;i,    ::  ....:,t|t:..:1Il|!+=<**###*****><<<<**M#
+  .::.  .;       .;II1,  .:itl|!+~=<*#MM#*>~!~<<<>#*W*
+    .:;;,        ,|!t1:  .,:1tl|!+~=<>***>~|I+~!ll|~=~
+                 ,:,;:....,,:i1tl!+==<>>><>=li1i:;;i
+               .,:::,. ..,,:;;;itl!~~=<<=!lI1:,...,
+             .,:i1i,   ..,::i;;iitI!+~~|;..,::,;t;,.
+            .,:i1t1:    .,,:;;;;;itl!+|i.:i1tllt1,
+            .:ii1tt;.     ...,,:i1ttIIttIlIt111tIt
+            ,;ii1tt1:.       .,;11IItttIllI1:........
+            ,;iiitIt;,.         .,,:;1I|!~~~!1i:     ...
+            :i1i;1II1i:,..           ,:;i111i;;::.      .,
+           .:iii;iIlltii;;:,.           ........,:,     ..;
                ..              ,:;ii;;tl|It1ttti:.                 .,,,,.    .:1
                ...        ..  .,;;;i;:1l||Itttllt;.   ..:;,        .,,,.    ,:::,
                 ..  ..   ...  ,:;;i1;:il!|lIt11t;,,,:,,:;;,       .,,.... .,,,,,;1
@@ -70,10 +70,10 @@
             ....          ,.                         :...... ......  .....   .             .. .
              ..           ,                         ..... .  ......  ...                  .. .
              ..            .                        ..... .  .....   ...                 .
-                           .                        .....   ...      ..
-                           .                        ....     ..      ..
-                          .                         ....     .
-                          .                         ....     .
+       .                        .....   ...      ..
+       .                        ....     ..      ..
+      .                         ....     .
+      .                         ....     .
 ```
 
 <br/>
@@ -136,7 +136,7 @@ const saksham = {
      ═══════════════════════════════════════════════════════════════ -->
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=40&lines=%24+Cyber+Security+Student+%7C+AI+Developer+%7C+Full+Stack+Dev;%24+Hackathon+Builder+%7C+Open+Source+Enthusiast;%24+Symbiosis+Institute+of+Technology;%24+Building+the+future%2C+one+exploit+at+a+time..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=40&lines=%24+Cyber+Security+Student;%24+AI+Developer+%7C+Full+Stack;%24+Hackathon+Builder;%24+Building+the+future..." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -418,7 +418,7 @@ CyberOS 4.2.0-kali saksham 2024 x86_64 Hack/Build/Secure/Repeat
 <tr>
 <td width="50%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sakshamwadhankar&show_icons=true&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&icon_color=00E5FF&border_color=00FF41&hide_border=false&count_private=true&include_all_commits=true" width="100%" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=sakshamwadhankar&show_icons=true&theme=github_dark&bg_color=0D1117&title_color=00FF41&text_color=E6EDF3&icon_color=00E5FF&border_color=00FF41&hide_border=false" width="100%" alt="GitHub Stats"/>
 
 </td>
 <td width="50%" align="center">
